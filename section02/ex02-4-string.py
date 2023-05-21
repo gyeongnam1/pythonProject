@@ -29,9 +29,9 @@ print(str)
 '''
 문자 배열=> 문자열
     문자열 인덱싱(indexing)
-    h   e   l    l    o     <==  문자열
+    h   e   l   l   o     <==  문자열
     0   1   2   3   4     <== 인덱스
-   -5  -4 -3  -2  -1    <== 마이너스 인덱스
+   -5  -4  -3  -2   -1    <== 마이너스 인덱스
 '''
 str = 'hello'
 print(str[1]) #한글자 한글자 접근이 가능
@@ -55,6 +55,17 @@ str = "Hello, World"
 print(str.upper())
 #소문자로 바꾸기
 print(str.lower())
+# print(str.upper[2:5])  #부분만 upper로 나오게 하는 건 안되나보다...
+
+# print(str) #원래 str 값은 바뀌지 않음. 지금 print만 바뀌어서 되는 중
+# str.lower() #이렇게 해도 str 값은 바뀌지 않음~
+# print(str)
+
+# str = str.upper() #대입 연산자! =를 써야지~~
+# print(str)
+
+# str[2:] = str.upper(). #부분만 upper로 나오게 하는 건 안되나보다...
+# # print(str)
 
 #문자열 바꾸기
 str = "Hello, World"

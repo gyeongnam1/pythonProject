@@ -69,6 +69,7 @@ print(result)
 
 name = 'Alice'
 age = '15'
+print("age의 타입은", type(age)) #변수 age의 타입은 문자열
 result = name + '/' + age
 print(result)
 

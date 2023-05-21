@@ -18,7 +18,7 @@ print(len(thislist)) #len() 함수로 리스트 길이를 알 수 있음.
 list1 = ['피카츄', '라이츄', '파이리']
 list2 = [1,2,3,4,5]
 list3 = [True, False, True]
-list4 = ['abc', 34, False, 40]
+list4 = ['abc', 34, False, 40] #자료형을 섞어서도 가능
 
 #항목 접근
 thislist = ['피카츄', '라이츄', '파이리']
