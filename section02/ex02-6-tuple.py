@@ -21,10 +21,10 @@ print(thistuple[1:3])
 
 #튜플 값 변경 방법
 thistuple = ('피카츄', '라이츄', '파이리')
-thiscast = list(thistuple) #list로 casting(형변환). ['ㅍㅋㅊ', '라이츄', '파이리'],
-thiscast[1] = '잠만보' # ['ㅍㅋㅊ', '잠만보', '파이리']
-thistuple = tuple(thiscast) #다시 튜플로 바꿔주는 것. ('ㅍㅋㅊ', '잠만보', '파이리')
-print(thistuple) #억까
+thiscast = list(thistuple) #list로 casting(형변환). ['피카츄', '라이츄', '파이리'],
+thiscast[1] = '잠만보' # ['피카츄', '잠만보', '파이리']
+thistuple = tuple(thiscast) #다시 튜플로 바꿔주는 것. ('피카츄', '잠만보', '파이리')
+print(thistuple) #억까. 그냥 새로 계속 만드는 것뿐
 
 #튜플 압축 풀기
 thistuple = ('피카츄', '라이츄', '파이리', '꼬부기')
