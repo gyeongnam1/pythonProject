@@ -1,5 +1,5 @@
 '''
-ex-02-4-string.py
+ex02-4-string.py
 
 문자열(String)
     하나 이상 연속된 문자(character) 들의 나열.
