@@ -12,3 +12,8 @@ ex04-4-logical.py
 a = 10
 b = 0
 print('{} > 0 and {} > 0 : {}'.format(a, b, a>0 and b>0))
+print('{} > 0 or {} > 0 : {}'.format(a, b, a>0 or b>0))
+#print('not {} > 0 : {}'.format(a, not a>0))
+print('not {} : {}'.format(a, not a)) # 1 이상이면 True로 생각
+print('not {} : {}'.format(b, not b)) # 0 -> False 인식
+
