@@ -28,7 +28,7 @@ print()
 
 '''
 range(start, stop, step)
-    step은 연속되는 숫자의 간격. 
+    step은 연속되는 숫자의 간격. 등차수열 같은??
 '''
 #1부터 2씩 증가 < 10
 for n in range(1, 10, 2):

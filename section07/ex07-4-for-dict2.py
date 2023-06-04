@@ -20,3 +20,4 @@ for student in students:
     english = student["영어"]
     math = student["수학"]
     print(f"{name}\t{korean}\t{english}\t{math}")
+    #print("{}\t{}\t{}\t{}".format(student["이름"],student["국어"],student["영어"],student["수학"]))
