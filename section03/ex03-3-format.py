@@ -19,4 +19,5 @@ print('제 이름은 {}입니다. \n나이는 {}입니다.'.format(name, age))
 address = '''서울특별시 강남구
 테헤란로 123
 '''
-print('주소: {addr}'.format(addr=address))
+print('주소: {addr}'.format(addr=address), end = '')
+print('주소: {}'.format(address))

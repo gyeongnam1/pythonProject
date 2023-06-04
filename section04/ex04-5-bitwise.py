@@ -11,6 +11,7 @@ ex04-5-bitwise.py
     4. ~(NOT) : 입력이 0이면 1. 입력이 1이면 0
     5. <<(왼쪽 SHIFT) : 비트 단위로 왼쪽으로 N비트 이동
     6. >>(오른쪽 SHIFT) : 비트 단위로 오른쪽으로 N비트 이동
+                        부호비트는 영향을 받지 않음.
 '''
 
 a = 6 #0110(2)
@@ -19,3 +20,5 @@ print('a & b : {}'.format(a & b))
 print('a | b : {}'.format(a | b))
 print('a ^ b : {}'.format(a ^ b))
 print('~a : {}'.format(~a))
+print('a << 1: {}'.format(a << 1)) # 0110 -> 1100
+print('a >> 1: {}'.format(a >> 1)) # 0110 -> 0011
