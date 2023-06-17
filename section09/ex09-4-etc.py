@@ -47,3 +47,6 @@ for student in zip(names, scores):
 
 for name, score in zip(names, scores):
     print("{}의 점수는 {}입니다.".format(name, score))
+
+print(zip(names,scores)) #이건 안되네.
+# <zip object at 0x000002380A4908C0> 이렇게 실행됨.
