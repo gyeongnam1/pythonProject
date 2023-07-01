@@ -18,9 +18,11 @@ num_count = 0
 #그 값을 하나하나씩 인덱스 번호 대로 for 뒤에 오는 변수(ch)에 넣어줌.
 for ch in pwd: #abcd1234라고 썼을 때,
     # 1:ch=a,
-    # 2:ch=b...
+    # 2:ch=b
+    # ...
     # 5:ch=1
-    # 6:ch=2...
+    # 6:ch=2
+    # ...
     if ch.isalpha(): #문자 여부
         ch_count += 1
     elif ch.isnumeric(): #숫자 여부
