@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 #figure 객체 생성
 figure = plt.figure() #그래프 그려주는 창 = figure
-axes = figure.add_subplot(223) #행, 열, 번호. 즉 1행 1열 첫번째 칸으로 보여주겠다.
+axes = figure.add_subplot(111) #행, 열, 번호. 즉 1행 1열 첫번째 칸으로 보여주겠다.
 #222로 하면 그래프가 작아지면서 분할된 사사분면에서 2번째 칸에 나옴.
 x = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
 y = [1200, 800, 500, 400, 700, 800]
